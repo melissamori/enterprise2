@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: arial, verdana, tahoma;
+    background: #c7e4d3;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.turismo_titulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #440064;
+  text-align: center;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  width: 100%; 
+}
+
+.turismo_texto {
+  color: #000000;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: justify;
+  padding: 1px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/sp_main.jpg);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maintext {
+  height:1000px;
+  background-color: transparent;
+  font-size: 18px;
+  text-align: just;
+  width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  .container div {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    padding: 25px;
+
+  }
+
+  .left {
+    background: #c7e4d3;
+    text-align: center;
+    float: left;
+  }
+
+  .right {
+    background: #c7e4d3;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .center {
+    background: #c7e4d3;
+    text-align: center;
+  }
+
+.redes_sociais_itens {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 40px 10px;
+}
+
+.redes_sociais_itens:hover {
+    color: rgb(255, 255, 255);
+}
+
+.paginas_itens {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 40px 10px;
+}
+
+.paginas_itens a  {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 40px 10px;
+
+}
+.paginas_itens:hover {
+  color: rgb(143, 116, 158);
+  text-decoration: none;
+  margin: 40px 10px;
+
+}
+
+.header-img {
+    max-width: 100%;
+    height: 450px;
+    background: url(../images/kikipanya.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.texto1 {
+    width: 900px;
+    height: auto;       ;
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+}   
+
+.box {
+  width: 70px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #333;
+  float: center;
+  max-width: 100%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.ponto_lista {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.ponto_lista a {
+    color: #a284a5;
+    text-decoration: none;
+}
+
+.ponto_lista a:hover {
+    color: #ffffff;
+    background-color: rgb(153, 116, 160);
+}
+
+.ponto_imagem {
+    width: 100%;
+    
+
+}
+
+.hr3 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.li-nav {
+  display: inline-flex;
+  padding: 2%;
+  background-color: white;
+  border-radius: 40px;
+  color: #440064;
+}
+
+.li-nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(155, 5, 105);
+  font-size: 20px ;
+}
+
+a:hover {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
